@@ -1,6 +1,8 @@
 
 
-1. If needed, download, the jpg and png images from the repository to ensure code builds report.
+1. The raw data is SNL_Harvard.csv.
+
+2.If needed, download, the jpg and png images from the repository to ensure code builds report.
 
 The report needs to call these images to execute building.
 

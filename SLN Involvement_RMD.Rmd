@@ -117,6 +117,15 @@ Table 3. Patient Age details the average age of the patients, along with the low
 <br>
 <br>
 
+Graphical Analyses
+
+```{r, pricture-3, echo=FALSE}
+knitr::include_graphics("Scatterplot.jpg")
+```
+<br>
+Figure 1. Scatter plot for sentinel lymph node (SLN) time versus SLN number.
+<br>
+
 References:
 <br>
 1.) https://cancer.ca/en/cancer-information/cancer-types/uterine/grading

@@ -1,6 +1,6 @@
 here::i_am("code/01_uterine_lnl.R")
 
-#read in data
+#read in original data
 SNL_data_1 <-read.csv("orig_data/SNL_Harvard_1.csv", header=TRUE)
 
 library(labelled)

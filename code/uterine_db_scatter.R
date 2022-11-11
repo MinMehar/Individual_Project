@@ -2,6 +2,8 @@ here::i_am("code/uterine_db_scatter.R")
 
 #load ggplot
 library(ggplot2)
+library(labelled)
+library(gtsummary)
 
 #read in data
 SNL_data_1 <- readRDS(file = here::here("output/uterine_data.rds"))

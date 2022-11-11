@@ -1,6 +1,7 @@
 here::i_am("code/02_fico_grade.R")
 
-
+library(labelled)
+library(gtsummary)
 
 SNL_data_1 <- readRDS(file = here::here("output/uterine_data.rds"))
 

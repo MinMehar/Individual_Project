@@ -1,7 +1,7 @@
 
 SLN_Final.html: SLN_Final.Rmd code/render_report.R graphics/Lymph_Drainage.png \
-graphics/SLN_procedure.png graphics/Location_freq_SLN.png output/uterine_table.rds \
-output/uterine_table_2.rds output/uterine_table_3.rds output/scp_db.png output/uterine_data.rds
+graphics/SLN_procedure.png graphics/Location_freq_SLN.png output/uterine_data.rds \
+output/uterine_table.rds output/uterine_table_2.rds output/uterine_table_3.rds output/scp_db.png
 	Rscript code/render_report.R
 	
 output/uterine_data.rds output/uterine_table.rds: code/01_uterine_lnl.R

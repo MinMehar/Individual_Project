@@ -75,8 +75,8 @@ SNL_Harvard_1.csv
 
 To restore the package environment:
 
-    run make install 
+    In terminal, run make install 
 
 To create the final report:
 
-    run make SLN_Final.html 
+    In the terminal, run make SLN_Final.html 

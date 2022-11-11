@@ -19,3 +19,7 @@ output/scp_db: output/uterine_data.rds code/uterine_db_scatter.R
 .PHONY: clean
 clean:
 	rm -f output/*.* && rm -f SLN_Final.html
+	
+.PHONY: install
+install: 
+	Rscript -e "renv::restore(prompt = FALSE)"

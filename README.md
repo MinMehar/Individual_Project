@@ -65,7 +65,10 @@ graphics/Location_freq_SLN.png
 
     This is our third figure and depicts the location and frequency of sentinel lymph nodes     in Grade 1 endometrial cancer.
     
-    
+
+ graphics/david.png   
+ 
+    This is my thanks to David.
     
 Orig_data:
 

@@ -23,6 +23,10 @@ code/03_patient_age.R
     This creates our third table comparing patient age and tumor size
 
     This creates our third table as "uterine_table_3.rds"" in the output folder
+    
+code/04_curve.R
+
+    This creates our binomial logistic regression curve comparing risk and tumor size.
 
 code/decision_boundary.R
 

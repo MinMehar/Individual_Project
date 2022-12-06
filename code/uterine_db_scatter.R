@@ -12,7 +12,7 @@ SNL_data_1 <- readRDS(file = here::here("output/uterine_data.rds"))
 #uterine cancer patients
 db_scatter <- 
   ggplot(SNL_data_1, aes(Patient_Age, Tumor_Size)) +
-  geom_point(aes(colour = factor(Risk))) + 
+  geom_point(aes(colour = factor(Risk), size = 10)) + 
   labs(colour = 'Risk Prediction') +
   xlab("Patient Age") + ylab("Tumor Size") +
   geom_smooth(method = "lm", se = FALSE, col = "green") +

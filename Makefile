@@ -13,8 +13,11 @@ output/uterine_table_2.rds: output/uterine_data.rds code/02_fico_grade.R
 output/uterine_table_3.rds: output/uterine_data.rds code/03_patient_age.R
 	Rscript code/03_patient_age.R
 
-output/scp_db: output/uterine_data.rds code/uterine_db_scatter.R
+output/scp_db.png: output/uterine_data.rds code/uterine_db_scatter.R
 	Rscript code/uterine_db_scatter.R
+
+output/bin_curve.png: output/uterine_data.rds code/04_curve.R
+	Rscript code/04_curve.R
 
 .PHONY: clean
 clean:

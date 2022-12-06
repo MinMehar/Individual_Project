@@ -94,6 +94,24 @@ Figure 1. This plot compares risk prediction among uterine cancer patients havin
 Utilizing classification by decision boundary and feature scaling, we can predict the overall risk of cancer grade status among our uterine cancer patients, given their age and tumor size. Those classified as high risk (red) are located above the decision boundary, and those classified as medium risk (purple) are located below the decision boundary. Both were determined after having undergone SLN excision and ultrastaging, and researchers can priortize which patients need therapy and treatment.
 
 <br>
+<br>
+
+```{r, plot-3, echo=FALSE}
+knitr::include_graphics( here::here("output/bin_curve.png") )
+```
+
+Figure 1. This logistic regression curve predicts the association of the size of the tumor and the risk of cancer grade status, high risk (blue) and medium risk (red). This curve measures this association by method by sentinel lymph node excision and ultrastaging.
+<br>
+<br>
+<br>
+
+![](graphics/david.png)
+<br>
+<br>
+Thank you so much for teaching this class, David! (I still don't know if I am supposed to call you Dr. Benkeser or not... we'll figure it out lol)
+I appreciate how much time, effort, and of course, outtakes, you went through to teach this class (Your past tweets say you don't really like teaching RStudio, I hope we made you reconsider even by 1% haha). I learned so much and developed a genuine appreciation and longing interest for data science coding and related techniques! I have been able to utilize machine learning concepts and clinical logistic regression application in real life projects, and I hope to lead a medical team in the future, so I will continue to build off of what you taught us! Keep making funny jokes, it really helped me laugh (instead of profusely cry and destroy my computer) every time I accidentally added a space in my code (*sigh-I cannot believe Elon Musk and other ridiculous but genius billionaires haven't funded a project to bypass stupid syntax errors). Thank you for everything, and I hope you have a great holiday break with your family!
+<br>
+<br>
 
 References:
 <br>
@@ -108,3 +126,4 @@ References:
 5.) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7685478/
 <br>
 6.) https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet#what-is-a-sentinel-lymph-node-biopsy
+7.) https://www.rd.com/list/funny-thank-you-memes/
